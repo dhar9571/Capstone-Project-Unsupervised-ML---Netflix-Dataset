@@ -20,4 +20,4 @@ End Output: The end output of the project is meaningful content clusters that ca
 Missing values: The dataset contained a large number of missing values, particularly for the "cast" and "director" features. In order to handle this, I removed null value observations for the features having less than 5% of total length. In some features I replaced with UNKNOWN keyword due to incorrect information.
 
 # Future Scope: 
-Implementing recommendation systems based on content clustering. The insights from the analysis could be used to improve Netflix's services in a number of ways. For example, Netflix could use the insights to improve its content recommendations, personalize its marketing campaigns, and enhance its content duration.
+Training the model with more future data for better and vast prediction with improved insights. The insights from the analysis could be used to improve Netflix's services in a number of ways. For example, Netflix could use the insights to improve its content recommendations, personalize its marketing campaigns, and enhance its content duration.
