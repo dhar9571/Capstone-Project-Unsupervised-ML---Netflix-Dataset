@@ -7,6 +7,7 @@ import pickle
 import re
 from nltk.stem.porter import PorterStemmer
 import matplotlib as mpl
+import sklearn
 
 # Web Page title
 st.title("Netflix Content Cluster Prediction")
