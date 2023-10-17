@@ -16,12 +16,14 @@ Dataset Explanation: The dataset is Netflix movies and tv shows data which compr
 
 Feature Engineering: Data preprocessing involved creating separate datasets for both movies and TV shows for recommender system and NLP steps to convert content description into vectors such as TF-IDF. This step was crucial for preparing the data for machine learning modelling.
 
-Algorithms: I applied clustering algorithms such as K-means, Hierarchical, DBSCAN to group content into clusters. I also used evaluation metrics like silhouette score and the elbow method to determine the optimal number of clusters.
+Algorithms: Applied clustering algorithms such as K-means, Hierarchical, DBSCAN to group content into clusters among which, K Means was working optimal with highest silhouette and lowest WCSS (Inertia). Used evaluation metrics like silhouette score and the elbow method to determine the optimal number of clusters.
 
-End Output: The end output of the project is meaningful content clusters that can be used for recommendations, marketing, and content analysis.
+End Output: The end output of the project is to develop a web application with trained classification model based on clusters which can also show meaningful insights of the particular cluster.
 
 # Challenges Faced:
 Missing values: The dataset contained a large number of missing values, particularly for the "cast" and "director" features. In order to handle this, I removed null value observations for the features having less than 5% of total length. In some features I replaced with UNKNOWN keyword due to incorrect information.
+
+Deployment: Another challenge was to deploy the model as large files were not getting added on github respository. Therefore, proceed with uploading them using LFS (Large Files Storage) using command line.
 
 # Future Scope: 
 Training the model with more future data for better and vast prediction with improved insights. The insights from the analysis could be used to improve Netflix's services in a number of ways. For example, Netflix could use the insights to improve its content recommendations, personalize its marketing campaigns, and enhance its content duration.
