@@ -18,6 +18,8 @@ Feature Engineering: Data preprocessing involved creating separate datasets for 
 
 Algorithms: Applied clustering algorithms such as K-means, Hierarchical, DBSCAN to group content into clusters among which, K Means was working optimal with highest silhouette and lowest WCSS (Inertia). Used evaluation metrics like silhouette score and the elbow method to determine the optimal number of clusters.
 
+Training: After training the K means model, acquired the cluster labels of all the movies and TV Show records using kmeans_cluster. After this, changed the clustering problem into classification problem and trained the XGBoost Classifier model considering the cluster label column as target feature.
+
 End Output: The end output of the project is to develop a web application with trained classification model based on clusters which can also show meaningful insights of the particular cluster.
 
 # Challenges Faced:
